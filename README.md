@@ -27,7 +27,7 @@ Una vez que tengamos nuestra programa con todos sus nodos haremos el grafo.
 
 ![imagen2](img/img2.PNG)
 
-Se explicará más detalladamente el camino en el punto 3.
+Se explicará más detalladamente los caminos en el punto 3.
 
 ## Complejidad ciclomática
 
@@ -98,7 +98,7 @@ En cada camino se ha de añadir una arista nueva
 
 ## Pantallazo con las Vistas
 
-### Vistas con 100 en test y clase
+### Vistas con 100% en test y clase
 
 ![imagen10](img/img10.PNG)
 
