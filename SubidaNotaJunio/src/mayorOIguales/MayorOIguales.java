@@ -13,10 +13,11 @@ public class MayorOIguales {
 	
 	public String mayorOIguales(int a, int b) {
 		if (a == b) 
-			return ("Iguales"); 
+			return "Iguales"; 
 		else if (a > b)  
-			return ("a: " + a + " es mayor"); 
+			return "a es mayor que b"; 
 		else
-			return ("b: " + b + " es mayor"); 
+			return "a es menor que b"; 
 	}
 }
+

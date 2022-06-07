@@ -17,14 +17,14 @@ class MayorOIgualesTest {
 	//Camino 2
 	void testMayorOIguales2() {
 		MayorOIguales prueba2 = new MayorOIguales();
-		assertEquals(prueba2.mayorOIguales(7, 2), "a: 7 es mayor");
+		assertEquals(prueba2.mayorOIguales(7, 2), "a es mayor que b");
 	}
 	
 	@Test
 	//Camino 3
 	void testMayorOIguales3() {
 		MayorOIguales prueba3 = new MayorOIguales();
-		assertEquals(prueba3.mayorOIguales(2, 7), "b: 7 es mayor");
+		assertEquals(prueba3.mayorOIguales(2, 7), "a es menor que b");
 	}
 
 }
