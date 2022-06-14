@@ -1,6 +1,6 @@
 # Primer ejercicio de Eclemma (Caja Blanca) Mayor,menor o igual.
 
-El orden para hacer nuestras pruebas de caja blnca es: 
+El orden para hacer nuestras pruebas de caja blanca es: 
 
 1. Grafo del flujo del programa.
    
@@ -92,11 +92,14 @@ En cada camino se ha de añadir una arista nueva
 
 ## Ficheros .java
 
-[Mayor,Menor o Igual](SubidaNotaJunio/src/mayorOIguales/MayorOIguales.java)
+[MayorOIguales.java](SubidaNotaJunio/src/mayorOIguales/MayorOIguales.java)
 
-[TestEclemma](SubidaNotaJunio/src/mayorOIguales/MayorOIgualesTest.java)
+[MayorOIgualesTest.java](SubidaNotaJunio/src/mayorOIguales/MayorOIgualesTest.java)
 
 ## Pantallazo con las Vistas
+
+Aquí lo que pretendemos es que cada camino quede cubierto, con su correspondiente prueba de Junit y eclemma. Debe ser lo más cercano Posible al 100%.
+
 
 ### Vistas con 100% en test y clase
 
