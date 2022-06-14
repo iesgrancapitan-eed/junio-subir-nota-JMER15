@@ -19,13 +19,13 @@ El orden para hacer nuestras pruebas de caja blanca es:
 
 Descomponemos nuestro programa para poder hacer el grafo y nos será de utilidad:
 
-![imagen1](../img2/img1.PNG)
+![imagen1](img2/img1.PNG)
 
 Una vez que tengamos nuestra programa con todos sus nodos haremos el grafo.
 
 ## Grafo del flujo
 
-![imagen2](../img2/img2.PNG)
+![imagen2](img2/img2.PNG)
 
 Se explicará más detalladamente el camino en el punto 3.
 
@@ -39,7 +39,7 @@ La fórmula sería: (Aristas-Nodos)+2
 
 Las aristas son las flechas que salen de que nodo (subrayado con amarillo).
 
-![imagen3](../img2/img3.PNG)
+![imagen3](img2/img3.PNG)
 
 Y los nodos son las condiciones o resultados dados.(numerados en rojo)
 
@@ -62,7 +62,7 @@ La fórmula es:
 VG = Nodos Predicados + 1
 VG = 7+1 = 8
 
-![imagen4](../img2/img4.PNG)
+![imagen4](img2/img4.PNG)
 
 ### Método de las Regiones
 
@@ -70,13 +70,13 @@ Regiones delimitadas por nodos y aristas. Se considera región la parte externa.
 
 VG = 8
 
-![imagen5](../img2/img5.PNG)
+![imagen5](img2/img5.PNG)
 
 ## Camino Independiente
 
 En cada camino se ha de añadir una arista nueva. 
 
-![imagen6](../img2/img6.PNG)
+![imagen6](img2/img6.PNG)
 
 ## Ficheros .java
 
@@ -90,26 +90,26 @@ Aquí lo que pretendemos es que cada camino quede cubierto, con su correspondien
 
 ### Vistas con 100% en test y clase
 
-![imagen7](../img2/img7.PNG)
+![imagen7](img2/img7.PNG)
 
-![imagen8](../img2/img8.PNG)
+![imagen8](img2/img8.PNG)
 
 ### Instrucciones código bytes
 
-![imagen9](../img2/img9.PNG)
+![imagen9](img2/img9.PNG)
 
 ### Ramas
 
-![imagen10](../img2/img10.PNG)
+![imagen10](img2/img10.PNG)
 
 ### Líneas
 
-![imagen11](../img2/img11.PNG)
+![imagen11](img2/img11.PNG)
 
 ### Métodos
 
-![imagen12](../img2/img12.PNG)
+![imagen12](img2/img12.PNG)
 
 ### Complejidad
 
-![imagen13](../img2/img13.PNG)
+![imagen13](img2/img13.PNG)
