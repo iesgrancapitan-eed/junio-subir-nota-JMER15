@@ -1,4 +1,4 @@
-# Segundo ejercicio de Eclemma (Caja Blanca) Días de la Semana con SWITCH.
+# Primer ejercicio de Eclemma (Caja Blanca) Mayor,menor o igual.
 
 El orden para hacer nuestras pruebas de caja blanca es: 
 
@@ -19,15 +19,15 @@ El orden para hacer nuestras pruebas de caja blanca es:
 
 Descomponemos nuestro programa para poder hacer el grafo y nos será de utilidad:
 
-![imagen1](img2/img1.PNG)
+![imagen1](img/img1.PNG)
 
 Una vez que tengamos nuestra programa con todos sus nodos haremos el grafo.
 
 ## Grafo del flujo
 
-![imagen2](img2/img2.PNG)
+![imagen2](img/img2.PNG)
 
-Se explicará más detalladamente el camino en el punto 3.
+Se explicará más detalladamente los caminos en el punto 3.
 
 ## Complejidad ciclomática
 
@@ -39,7 +39,7 @@ La fórmula sería: (Aristas-Nodos)+2
 
 Las aristas son las flechas que salen de que nodo (subrayado con amarillo).
 
-![imagen](img2/img3.PNG)
+![imagen](img/img3.PNG)
 
 Y los nodos son las condiciones o resultados dados.(numerados en rojo)
 
@@ -47,9 +47,9 @@ Con lo cual la fórmula quedaría así:
 
 VG = (A-N) +2
 
-VG = (15-9) + 2
+VG = (8-7) + 2
 
-VG = 8
+VG = 3
 
 La complejidad resulta que es 3, en las otras 2 formas nos debe de salir lo mismo, para verificar que está bien.
 
@@ -60,56 +60,69 @@ Son los nodos de los que salen 2 o más flechas.
 La fórmula es:
 
 VG = Nodos Predicados + 1
-VG = 7+1 = 8
+VG = 2+1 = 3
 
-![imagen4](img2/img4.PNG)
+![imagen4](img/img4.PNG)
 
 ### Método de las Regiones
 
 Regiones delimitadas por nodos y aristas. Se considera región la parte externa.
 
-VG = 8
+VG = 3
 
-![imagen5](img2/img5.PNG)
+![imagen5](img/img5.PNG)
 
 ## Camino Independiente
 
-En cada camino se ha de añadir una arista nueva. 
+En cada camino se ha de añadir una arista nueva 
 
-![imagen6](img2/img6.PNG)
+![imagen6](img/img6.PNG)
+
+**El primer camino nos indica que los 2 números son iguales con lo cual es verdadero.**
+
+![imagen7](img/img7.PNG)
+
+**El segundo camino es si a es mayor que b con lo cual a será mayor en este caso.**
+
+![imagen8](img/img8.PNG)
+
+**El camino 3 es si b es mayor que a.**
+
+![imagen9](img/img9.PNG)
 
 ## Ficheros .java
 
-[DiaSemana.java](SubidaNotaJunio/src/diaSemana/DiaSemana.java)
+[MayorOIguales.java](../src/mayorOIguales/MayorOIguales.java)
 
-[DíaSemanaTest.java](SubidaNotaJunio/src/diaSemana/DiaSemanaTest.java)
+[MayorOIgualesTest.java](../src/mayorOIguales/MayorOIgualesTest.java)
 
 ## Pantallazo con las Vistas
 
 Aquí lo que pretendemos es que cada camino quede cubierto, con su correspondiente prueba de Junit y eclemma. Debe ser lo más cercano Posible al 100%.
 
+
 ### Vistas con 100% en test y clase
 
-![imagen7](img2/img7.PNG)
+![imagen10](img/img10.PNG)
 
-![imagen8](img2/img8.PNG)
+![imagen11](img/img11.PNG)
 
 ### Instrucciones código bytes
 
-![imagen9](img2/img9.PNG)
+![imagen12](img/img12.PNG)
 
 ### Ramas
 
-![imagen10](img2/img10.PNG)
+![imagen13](img/img13.PNG)
 
 ### Líneas
 
-![imagen11](img2/img11.PNG)
+![imagen14](img/img14.PNG)
 
 ### Métodos
 
-![imagen12](img2/img12.PNG)
+![imagen15](img/img15.PNG)
 
 ### Complejidad
 
-![imagen13](img2/img13.PNG)
+![imagen16](img/img16.PNG)
