@@ -1,6 +1,6 @@
 # Segundo ejercicio de Eclemma (Caja Blanca) Días de la Semana con SWITCH.
 
-El orden para hacer nuestras pruebas de caja blnca es: 
+El orden para hacer nuestras pruebas de caja blanca es: 
 
 1. Grafo del flujo del programa.
    
@@ -74,19 +74,21 @@ VG = 8
 
 ## Camino Independiente
 
-En cada camino se ha de añadir una arista nueva 
+En cada camino se ha de añadir una arista nueva. 
 
 ![imagen6](img2/img6.PNG)
 
 ## Ficheros .java
 
-[DiaSemana](SubidaNotaJunio/src/diaSemana/DiaSemana.java)
+[DiaSemana.java](SubidaNotaJunio/src/diaSemana/DiaSemana.java)
 
-[DíaSemanaTest](SubidaNotaJunio/src/diaSemana/DiaSemanaTest.java)
+[DíaSemanaTest.java](SubidaNotaJunio/src/diaSemana/DiaSemanaTest.java)
 
 ## Pantallazo con las Vistas
 
-### Vistas con 100 en test y clase
+Aquí lo que pretendemos es que cada camino quede cubierto, con su correspondiente prueba de Junit y eclemma. Debe ser lo más cercano Posible al 100%.
+
+### Vistas con 100% en test y clase
 
 ![imagen7](img2/img7.PNG)
 
